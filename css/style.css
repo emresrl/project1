@@ -1,0 +1,77 @@
+.ustpanel {
+    height: 25px;
+}
+
+.header {
+    height: 30px
+}
+
+.header li {
+    display: inline;
+}
+
+.header li.sag {
+    float: right;
+    padding-left:11px;
+    padding-right:11px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li.logo img {
+    width: 15px;
+    height: 15px;
+    float: right;
+    padding-left: 5px;
+}
+
+.header .pp img {
+    float: right;
+    padding-left: 10px;
+    width: 25px;
+}
+
+div.glogo img {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+div.search textarea {
+    display: block;
+    margin: auto;
+    text-align: center;
+    height: 30px;
+    border-radius: 10px;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+.ses img {
+    height: 30px;
+    width: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.butonlar li button {
+    display: block;
+    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer li.sag {
+    display: inline;
+    float: right;
+    padding-left:11px;
+    padding-right:11px;
+    margin-top: 250px;
+    margin-bottom: 0px;
+}
