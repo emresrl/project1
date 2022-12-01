@@ -24,37 +24,43 @@
         </div>
         <!-- üst bar end -->
         <!-- Google logo start -->
-        <section>
-        <div class="glogo">
-            <img src="/img/gl.png" title="Google">
-        </div>
-        </section>
-        <!-- Google logo end -->
-        <!-- search start -->
-        <div class="search">
-            <ul>
-                <li><textarea name="arama" id="" cols="75" rows="2"></textarea></li>
-                <li  class="ses"><img src="/img/vl.png"></li>
-            </ul>
-            <div class="butonlar">
-                <ul>
-                    <li><button class="ga">Google Arama</button></li>
-                    <li><button class="ks">Kendimi şanslı hissediyorum</button></li>
-                </ul>
+        <section id="main" style="margin-top: 50px;">
+            <div class="logo">
+                <img src="/img/gl.png" alt="google-logo">
             </div>
-        </div>
+            <div class="search">
+                <div class="searchdiv">
+                    <i class="fa-solid fa-magnifying-glass fa-sm"></i> <input type="text" class="searchinput"> <i class="fa-sharp fa-solid fa-keyboard"></i>
+                    <img class="google-mic" src="img/vl.png" alt="google-mic"> <img class= "camera-logo" src="img/camera.svg" alt="camera">
+                </div>
+                <button class="btn">Google'da Ara</button>
+                <button class="btn">Kendimi Şanslı Hissediyorum</button>
+            </div>
+    </section>
         <!-- search end -->
         <!-- footer start -->
-        <div>
+        <section id="footer">
             <div class="footer">
-                <nav>
-                    <ul>
-                        <li class="sag"><a href="index.html">Gizlilik</a></li>
-                        <li class="sag"><a href="index.html">Şartlar</a></li>
-                    </ul>
-                </nav>
+                <div class="trk">Türkiye</div>
+                <div class="bottom-footer">
+                <div class="about">
+                    <a href="https://about.google/?utm_source=google-TR&utm_medium=referral&utm_campaign=hp-footer&fg=1">Hakkında</a>
+                    <a href="https://www.google.com/intl/tr_tr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Reklam</a>
+                    <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">İşletme</a>
+                    <a href="https://google.com/search/howsearchworks/?fg=1">Arama Nasıl Çalışır?</a>
+                </div>
+                <div class="carbon">
+                    <img class="leaf" src="img/leaf.png" alt="leaf"><a class="carbon-link" href="https://sustainability.google/intl/tr/carbon-free/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=">2007'den bu yana karbon nötr</a>
+                </div>
+                <div class="settings">
+                    <a href="https://policies.google.com/privacy?hl=tr&fg=1">Gizlilik</a>
+                    <a href="https://policies.google.com/terms?hl=tr&fg=1">Şartlar</a>
+                    <a href="#">Ayarlar</a>
+                </div>
             </div>
         </div>
+    </div>
+</section>
         <!-- footer end -->
     </div>
 </body>
