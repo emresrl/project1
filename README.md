@@ -1,5 +1,5 @@
-# Project 1
-Geliştirme aşamasında yaptığım ilk proje google ana sayfa clonu
+#CSS ÖDEV 3
+Google Güncel Tasarımı-CSS(Ödev3)
 
 ![Ödev Görseli](/img/1.png)
 
