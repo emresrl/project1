@@ -1,4 +1,4 @@
-# PROJECT 1
+# Project 1
 Geliştirme aşamasında yaptığım birinci proje google ana sayfa clonu
 
 ![Ödev Görseli](/img/1.png)
